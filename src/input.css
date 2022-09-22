@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+#hero{
+    @apply h-screen;
+}
+
+.card{
+    @apply flex;
+    @apply flex-col;
+    @apply justify-center;
+    @apply w-[445px];
+    @apply h-[258px];
+    @apply rounded-3xl;
+    @apply py-0;
+    @apply px-9;
+    @apply border;
+    @apply border-black;
+}
